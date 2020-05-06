@@ -1,7 +1,5 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-# I want the rows in the display board to be affected by the board itself.
-
   def display_board(board)
     print " #{board[0]} | #{board[1]} | #{board[2]} "
     puts "-----------"
