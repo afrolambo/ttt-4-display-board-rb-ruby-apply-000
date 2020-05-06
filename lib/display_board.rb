@@ -4,9 +4,9 @@
 
 def display_board(board)
 board = ['a','b','c','d','e','f','g','h','i']
-  rowA = " #{board[0]} | #{board[1]} | #{board[2]} "
-  rowB = "-----------"
-  rowC = " #{board[3]} | #{board[4]} | #{board[5]} "\
-  rowD = "-----------"
-  rowE = " #{board[6]} | #{board[7]} | #{board[8]} "
+  row_o = " #{board[0]} | #{board[1]} | #{board[2]} "
+  row_tw= "-----------"
+  row_th = " #{board[3]} | #{board[4]} | #{board[5]} "\
+  row_f = "-----------"
+  row_v = " #{board[6]} | #{board[7]} | #{board[8]} "
 end
