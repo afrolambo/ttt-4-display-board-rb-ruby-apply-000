@@ -2,11 +2,10 @@
 # out the current state.
 # I want the rows in the display board to be affected by the board itself.
 
-def display_board(board)
-board = ['a','b','c','d','e','f','g','h','i']
-  row_o = " #{board[0]} | #{board[1]} | #{board[2]} "
-  row_tw= "-----------"
-  row_th = " #{board[3]} | #{board[4]} | #{board[5]} "\
-  row_f = "-----------"
-  row_v = " #{board[6]} | #{board[7]} | #{board[8]} "
-end
+  def display_board(board)
+    print " #{board[0]} | #{board[1]} | #{board[2]} "
+    puts "-----------"
+    print " #{board[3]} | #{board[4]} | #{board[5]} "\
+    puts "-----------"
+    print " #{board[6]} | #{board[7]} | #{board[8]} "
+  end
